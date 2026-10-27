@@ -10,8 +10,7 @@ import Services from './pages/Services'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import BookAppointment from './pages/BookAppointment'
-import ScrollToTop from "./components/ScrollToTop";
-
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
           path="/book-appointment"
           element={<BookAppointment />}
         />
-        
       </Routes>
 
       <Footer />

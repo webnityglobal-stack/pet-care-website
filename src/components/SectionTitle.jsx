@@ -8,7 +8,7 @@ export default function SectionTitle({
   return (
     <div className={`${centered ? 'mx-auto text-center' : ''} max-w-2xl`}>
       {eyebrow && (
-        <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#8A755B]">
+        <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#50504a]">
           {eyebrow}
         </p>
       )}
@@ -18,7 +18,7 @@ export default function SectionTitle({
       </h2>
 
       {description && (
-        <p className="mt-4 text-sm leading-7 text-[#77776F] sm:text-base">
+        <p className="mt-4 text-sm leading-7 text-[#4d4d35] sm:text-base">
           {description}
         </p>
       )}

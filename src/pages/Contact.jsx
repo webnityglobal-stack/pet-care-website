@@ -21,7 +21,7 @@ function Contact() {
   };
 
   return (
-    <main className="min-h-screen bg-[#faf9f6] px-5 py-16 md:px-10">
+    <main className="min-h-screen bg-[#faf9f6] px-5 py-10 md:px-10">
       <SectionTitle
         eyebrow="GET IN TOUCH"
         title="We would love to hear from you."

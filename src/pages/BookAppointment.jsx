@@ -41,7 +41,7 @@ function BookAppointment() {
   const today = new Date().toLocaleDateString("en-CA");
 
   return (
-    <main className="min-h-screen bg-[#faf9f6] px-5 py-16 md:px-10">
+    <main className="min-h-screen bg-[#faf9f6] px-5 py-10 md:px-10">
       <SectionTitle
         eyebrow="BOOK AN APPOINTMENT"
         title="Your pet's care starts here."

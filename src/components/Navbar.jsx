@@ -39,10 +39,9 @@ export default function Navbar() {
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `text-sm font-medium transition-colors ${
-                  isActive
-                    ? 'text-[#536B55]'
-                    : 'text-[#292D28] hover:text-[#536B55]'
+                `text-xl font-medium transition-colors ${isActive
+                  ? 'text-[#536B55]'
+                  : 'text-[#292D28] hover:text-[#536B55]'
                 }`
               }
             >
@@ -54,10 +53,13 @@ export default function Navbar() {
         {/* Appointment button */}
         <Link
           to="/book-appointment"
-          className="hidden items-center gap-2 rounded-full bg-[#536B55] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#405642] sm:inline-flex"
+          className="group hidden items-center justify-center gap-2 rounded-full border border-[#17773f] bg-[#17773f] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all duration-300 hover:border-[#17773f] hover:bg-[#f6fffa] hover:text-[#17773f] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#17773f] focus-visible:ring-offset-2 sm:inline-flex"
         >
-          <CalendarDays size={17} />
-          Book Appointment
+          <CalendarDays
+            size={17}
+            className="transition-transform duration-300 group-hover:scale-110 text-white"
+          />
+          <span className="text-white">Book Appointment</span>
         </Link>
 
         {/* Mobile menu toggle */}
@@ -82,10 +84,9 @@ export default function Navbar() {
                 to={link.path}
                 onClick={closeMenu}
                 className={({ isActive }) =>
-                  `rounded-lg px-4 py-3 text-sm font-medium ${
-                    isActive
-                      ? 'bg-[#F1E9DC] text-[#536B55]'
-                      : 'text-[#292D28] hover:bg-[#F7F5EF]'
+                  `rounded-lg px-4 py-3 text-sm font-medium ${isActive
+                    ? 'bg-[#F1E9DC] text-[#536B55]'
+                    : 'text-[#292D28] hover:bg-[#F7F5EF]'
                   }`
                 }
               >
@@ -96,10 +97,10 @@ export default function Navbar() {
             <Link
               to="/book-appointment"
               onClick={closeMenu}
-              className="mt-3 inline-flex items-center justify-center gap-2 rounded-full bg-[#536B55] px-5 py-3.5 text-sm font-semibold text-white"
+              className="mt-3 inline-flex items-center justify-center gap-2 rounded-full bg-[#306d35] px-5 py-3.5 text-sm font-semibold text-white"
             >
-              <CalendarDays size={17} />
-              Book Appointment
+              <CalendarDays  size={17}  className="text-white"/>
+              <span className="text-white">Book Appointment</span>
             </Link>
           </div>
         </nav>
