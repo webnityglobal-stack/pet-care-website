@@ -28,24 +28,32 @@ const services = [
     description: "Keep your pet clean, fresh and looking their absolute best.",
     icon: Scissors,
     link: "/services",
+     image:
+      'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=900&q=85',
   },
   {
     title: "Veterinary Care",
     description: "Professional health support for your furry family members.",
     icon: Stethoscope,
     link: "/services",
+     image:
+      'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?auto=format&fit=crop&w=900&q=85',
   },
   {
     title: "Bath & Hygiene",
     description: "Gentle bathing and hygiene care for happy, healthy pets.",
     icon: Bath,
     link: "/services",
+    image:
+      'https://images.unsplash.com/photo-1581888227599-779811939961?auto=format&fit=crop&w=900&q=85',
   },
   {
     title: "Food & Nutrition",
     description: "Thoughtfully selected nutrition for every stage of life.",
     icon: Bone,
     link: "/services",
+   image:
+      'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=85',
   },
 ];
 
