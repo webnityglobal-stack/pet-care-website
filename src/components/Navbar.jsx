@@ -53,7 +53,7 @@ export default function Navbar() {
         {/* Appointment button */}
         <Link
           to="/book-appointment"
-          className="group hidden items-center justify-center gap-2 rounded-full border border-[#17773f] bg-[#17773f] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all duration-300 hover:border-[#17773f] hover:bg-[#f6fffa] hover:text-[#17773f] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#17773f] focus-visible:ring-offset-2 sm:inline-flex"
+          className="group hidden items-center justify-center gap-2 rounded-full border border-[#17773f] bg-[#17773f] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all duration-300 hover:border-[#17773f] hover:bg-[#0ec058] hover:text-[#ecf5f0] hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#17773f] focus-visible:ring-offset-2 sm:inline-flex"
         >
           <CalendarDays
             size={17}
