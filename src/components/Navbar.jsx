@@ -26,7 +26,7 @@ export default function Navbar() {
           className="shrink-0"
         >
           <img
-            src="/images/pawora-logo.png"
+            src={`${import.meta.env.BASE_URL}images/pawora-logo.png`}
             alt="Pawora Pet Care & Services"
             className="h-14 w-auto max-w-[155px] object-contain sm:h-16 sm:max-w-[175px]"
           />
