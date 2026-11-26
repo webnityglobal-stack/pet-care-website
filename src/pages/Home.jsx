@@ -226,7 +226,7 @@ export default function Home() {
 
             <div className="relative overflow-hidden rounded-[2rem] border-[8px] border-white shadow-2xl shadow-[#244d35]/10 sm:rounded-[2.5rem]">
               <img
-                src="/images/pawora-hero.png"
+                src={`${import.meta.env.BASE_URL}images/pawora-hero.png`}
                 alt="A happy pet enjoying caring attention"
                 className="h-[340px] w-full object-cover sm:h-[460px]"
               />
